@@ -8,7 +8,7 @@
   body {
     display: flex;
     flex-direction: column;
-    background-color: #d9dcd6;
+    background-color: #555654;
   }
 
   header {
@@ -59,6 +59,11 @@
     color: aqua;
   }
 
+  p {
+    color: rgb(227, 34, 241);
+    font-size: 18px;
+  }
+
   main {
    max-width: 100%;
     margin: 2%;
@@ -73,6 +78,7 @@
   
   h3 {
     width: 30%;
+    color: #5dc81b;
   }
    
   section > p {
@@ -85,4 +91,8 @@
     justify-content: space-between;
     margin: 0;
     padding: 0; 
+  }
+
+  .nav-bottom a {
+    color: aqua;
   }
