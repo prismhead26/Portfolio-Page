@@ -50,7 +50,7 @@
   }
 
   h2 {
-    height: 20em;
+    height: calc(100vh - 100px);
     width: 100%;
     background-image: url("/assets/images/4419637.jpg");
     background-size: cover;
@@ -75,16 +75,17 @@
   }
   
   h3 {
-    width: 30%;
+    max-width: 20%;
+    min-width: 20%;
     color: #5dc81b;
   }
    
   section > a {
-    width: 70%;
+    width: 80%;
   }
 
   .work-image {
-   align-items: stretch;
+    align-items: stretch;
     justify-content: space-between;
     margin: 0;
     padding: 0;
@@ -102,6 +103,7 @@
   #challenge-1 {
     background-image: url(/assets/images/127.0.0.1_5500_index.html\ \(1\).png);
     background-size: cover;
+    /*supposed to show the full img with this funciton*/
     height: calc(100vh - 100px);
   }
 
