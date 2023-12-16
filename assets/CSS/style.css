@@ -72,8 +72,6 @@
 
   section {
     display: flex;
-    flex-wrap: wrap;
-    margin: 1rem;
   }
   
   h3 {
@@ -86,11 +84,16 @@
   }
 
   .work-image {
-    display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0;
-    padding: 0; 
+    padding: 0;
+    
+  a {
+    color: rgb(246, 255, 0);
+    text-align: center;
+  }
+
   }
 
   .nav-bottom a {
