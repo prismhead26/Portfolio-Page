@@ -1,7 +1,8 @@
+:root {
+
+}
+
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
   }
 
@@ -21,7 +22,7 @@
   }
 
   h1 {
-    font-size: 2em;
+    font-size: 2rem;
   }
   
   h1 .portfolio {
@@ -36,13 +37,14 @@
   }
   
   nav ul li {
-    padding: 0 15px 0 15px;
+    padding: 1em 3em 0 3em;
   }
   
   nav a {
     color: #87948c;
     font-weight: bold;
     text-decoration: none;
+    font-size: 1.1rem;
   }
   
   nav a:hover {
@@ -57,11 +59,21 @@
     background-position: center;
     text-align: right;
     color: aqua;
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    max-width: 20%;
+    min-width: 20%;
+    color: #5dc81b;
+    border-right: 5px solid lightgreen;
+    font-size: 1.6rem;
+    margin: 0.5em 0;
   }
 
   p {
     color: rgb(227, 34, 241);
-    font-size: 18px;
+    font-size: 1.3rem;
   }
 
   main {
@@ -73,14 +85,6 @@
   section {
     display: flex;
   }
-  
-  h3 {
-    max-width: 20%;
-    min-width: 20%;
-    color: #5dc81b;
-    margin-right: 2%;
-    border-right: 5px solid lightgreen;
-  }
 /*
   main > section > h3 {
     margin: 5% 0;
@@ -91,19 +95,7 @@
     color: rgb(246, 255, 0);
     text-align: left; 
   }
-/*
-  .work-image {
-    align-items: stretch;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-  }
 
-  .work > a {
-    color: rgb(246, 255, 0);
-    text-align: left;   
-  }
-*/
   #challenge-1 {
     background-image: url(/assets/images/127.0.0.1_5500_index.html\ \(1\).png);
     background-size: cover;
