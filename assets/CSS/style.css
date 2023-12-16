@@ -88,17 +88,31 @@
     justify-content: space-between;
     margin: 0;
     padding: 0;
-
-
   }
 
   .nav-bottom a {
     color: aqua;
   }
 
-  .work-image > a {
+  .work > a {
     color: rgb(246, 255, 0);
-    text-align: left; 
+    text-align: left;   
+  }
+
+  #challenge-1 {
+    background-image: url(/assets/images/127.0.0.1_5500_index.html\ \(1\).png);
+    background-size: cover;
+    height: calc(100vh - 100px)
+  }
+
+  #led {
+    background-image: url(/assets/images/PXL_20231129_200841880.jpg);
+    background-size: cover;
+    height: calc(100vh - 100px)
+  }
+
+  #calculator {
     background-image: url(/assets/images/download.png);
-    width: 50%;
-  } 
+    background-size: cover;
+    height: calc(100vh - 100px)
+  }
