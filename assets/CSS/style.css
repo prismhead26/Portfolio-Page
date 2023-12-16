@@ -102,17 +102,17 @@
   #challenge-1 {
     background-image: url(/assets/images/127.0.0.1_5500_index.html\ \(1\).png);
     background-size: cover;
-    height: calc(100vh - 100px)
+    height: calc(100vh - 100px);
   }
 
   #led {
     background-image: url(/assets/images/PXL_20231129_200841880.jpg);
     background-size: cover;
-    height: calc(100vh - 100px)
+    height: 20em;
   }
 
   #calculator {
     background-image: url(/assets/images/download.png);
     background-size: cover;
-    height: calc(100vh - 100px)
+    height: 20em;
   }
