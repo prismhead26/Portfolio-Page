@@ -79,23 +79,26 @@
     color: #5dc81b;
   }
    
-  section > p {
+  section > a {
     width: 70%;
   }
 
   .work-image {
-    align-items: center;
+   align-items: stretch;
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    
-  a {
-    color: rgb(246, 255, 0);
-    text-align: center;
-  }
+
 
   }
 
   .nav-bottom a {
     color: aqua;
   }
+
+  .work-image > a {
+    color: rgb(246, 255, 0);
+    text-align: left; 
+    background-image: url(/assets/images/download.png);
+    width: 50%;
+  } 
