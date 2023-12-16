@@ -78,12 +78,20 @@
     max-width: 20%;
     min-width: 20%;
     color: #5dc81b;
+    margin-right: 2%;
+    border-right: 5px solid lightgreen;
   }
-   
+/*
+  main > section > h3 {
+    margin: 5% 0;
+  }
+  */
   section > a {
     width: 80%;
+    color: rgb(246, 255, 0);
+    text-align: left; 
   }
-
+/*
   .work-image {
     align-items: stretch;
     justify-content: space-between;
@@ -91,30 +99,50 @@
     padding: 0;
   }
 
-  .nav-bottom a {
-    color: aqua;
-  }
-
   .work > a {
     color: rgb(246, 255, 0);
     text-align: left;   
   }
-
+*/
   #challenge-1 {
     background-image: url(/assets/images/127.0.0.1_5500_index.html\ \(1\).png);
     background-size: cover;
     /*supposed to show the full img with this funciton*/
     height: calc(100vh - 100px);
-  }
+    border: 5px solid darkblue;
+    margin: 1%;
+    }
 
   #led {
     background-image: url(/assets/images/PXL_20231129_200841880.jpg);
     background-size: cover;
     height: 20em;
+    border: 5px solid darkblue;
+    margin: 1%;
   }
 
   #calculator {
     background-image: url(/assets/images/download.png);
     background-size: cover;
     height: 20em;
+    border: 5px solid darkblue;
+    margin: 1%;
+  }
+
+  footer {
+    max-width: 100%;
+    margin: 2%;
+    padding: 0 1%;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    */
+  }
+
+  .nav-bottom {
+width: 80%;
+  }
+
+  .nav-bottom a {
+    color: aqua;
   }
