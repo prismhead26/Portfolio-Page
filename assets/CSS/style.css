@@ -79,6 +79,10 @@
     margin: 2%;
   }
 
+  a {
+    font-size: 2em;
+  }
+
   main {
    max-width: 100%;
     margin: 2%;
@@ -89,14 +93,14 @@
     display: flex;
     justify-content: space-between;
   }
-/*
-  main > section > h3 {
-    margin: 5% 0;
-  }
-  */
-  section > a {
-    width: 80%;
-    color: rgb(246, 255, 0);
+
+  .flexbox-container {
+    color: #1adb09;
+    float: left;
+    font-family: 'ComfortaaBold',cursive;
+    font-size: 20px;
+    height: 100%;
+    margin: 0 auto;
     text-align: center;
   }
 
@@ -108,33 +112,11 @@
     border: 5px solid darkblue;
     margin: 1%;
     width: 80%;
-    }
-
-    #challenge-1 span.text-image a {
-      color: #636363;
-      padding: 80px 0;
-      text-decoration: none;
-      display:block;
-      width:100%;
-      height: 100%;
-    }
-  
-    #challenge-1 span.text-image a:hover {
-      color: white;
-    }
-  
-
-  #led {
-  
-    background-image: url(/assets/images/PXL_20231129_200841880.jpg);
-    background-size: cover;
-    height: 20em;
-    border: 5px solid darkblue;
-    margin: 1%;
-    width: 40%;
+    opacity: 0.5;
+    transition: 1s ease;
   }
 
-  #led span.text-image a {
+  #challenge-1 span.flexbox-container a {
     color: #636363;
     padding: 80px 0;
     text-decoration: none;
@@ -143,8 +125,24 @@
     height: 100%;
   }
 
-  #led span.text-image a:hover {
-    color: white;
+  #led {
+    background-image: url(/assets/images/PXL_20231129_200841880.jpg);
+    background-size: cover;
+    height: 20em;
+    border: 5px solid darkblue;
+    margin: 1%;
+    width: 40%;
+    opacity: 0.5;
+    transition: 1s ease;
+  }
+
+  #led span.flexbox-container a {
+    color: #de08e1;
+    padding: 80px 0;
+    text-decoration: none;
+    display:block;
+    width:100%;
+    height: 100%;
   }
 
   #calculator {
@@ -154,10 +152,12 @@
     border: 5px solid darkblue;
     margin: 1%;
     width: 40%;
+    opacity: 0.5;
+    transition: 1s ease;
   }
 
-  #calculator span.text-image a {
-    color: #636363;
+  #calculator span.flexbox-container a {
+    color: gray;
     padding: 80px 0;
     text-decoration: none;
     display:block;
@@ -165,26 +165,37 @@
     height: 100%;
   }
 
-  #calculator span.text-image a:hover {
+  #challenge-1 span.flexbox-container a:hover, #led span.flexbox-container a:hover, #calculator span.flexbox-container a:hover {
     color: white;
+    transition: 1s ease;
   }
 
-  #calculator span.text-image a:hover, #led span.text-image a:hover {
-    background-color: #00AEEF;
-}
+  #challenge-1 {
+    background-image: url(/assets/images/127.0.0.1_5500_index.html\ \(1\).png);
+    opacity: 1;
+    transition: 1s ease;
+  }
+
+  #led:hover {
+    background-image: url(/assets/images/PXL_20231129_200841880.jpg);
+    opacity: 1;
+    transition: 1s ease;
+  }
+
+  #calculator:hover {
+    background-image: url(/assets/images/download.png);
+    opacity: 1;
+    transition: 1s ease;
+  }
 
   footer {
     max-width: 100%;
     margin: 2%;
     padding: 0 1%;
-    /*display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    */
   }
 
   .nav-bottom {
-width: 80%;
+    width: 80%;
   }
 
   .nav-bottom a {
