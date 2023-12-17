@@ -31,7 +31,7 @@
 
   nav {
   }
-  
+
   nav ul {
     display: flex;
     justify-content: space-between;
@@ -102,15 +102,6 @@
   }
 
   .flexbox-container {
-    background: none repeat scroll 0 0 #810e0e;
-    /*color: #1adb09;
-    float: left;
-    font-family: 'ComfortaaBold',cursive;
-    font-size: 20px;
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
-    text-align: left;*/
   }
 
   #challenge-1 {
