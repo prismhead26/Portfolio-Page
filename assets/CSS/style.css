@@ -48,10 +48,16 @@
     color: #c8321b;
   }
 
+  nav, .nav-bottom {
+    display: flex;
+  
+  }
+
   nav ul {
     display: var(--display-flex);
     justify-content: var(--justify-content-space-between);
     list-style-type: none;
+    flex-wrap: wrap;
   }
   
   nav ul li {
@@ -185,4 +191,10 @@
 
   .nav-bottom a {
     color: aqua;
+  }
+
+  @media screen and (max-width: 768px) {
+    main, nav, body, footer, .nav-bottom {
+      flex-direction: column;
+    }
   }
