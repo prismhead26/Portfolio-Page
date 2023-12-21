@@ -84,7 +84,7 @@
   h2 {
     height: var(--height-full-function);
     width: var(--width-full);
-    background-image: url("../images/4419637.jpg");
+    background-image: url(../images/4419637.jpg);
     background-size: var(--background-size-cover);
     background-position: var(--background-position-center);
     text-align: right;
