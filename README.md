@@ -2,9 +2,9 @@
 
 ## Description
 
-The main goal of this project is to create a codebase that follows accessibility standards, so that the site is optimized for search engines. And it makes certain that people with disabilities can access the website.
+The main goal of this project is to create a webpage from scratch, following accessibility standards. This application will be a Portfolio Webpage, highlighting my hard work and progress to becoming a successful developer.
 <br>
-After completion of the project, I have a better understanding of the git "flow" process as well as using pseudocode to break down and manage the project into managable segments. I also learned some better ways to write the CSS, thus making the code easier to read and more modular!
+After completion of the project, I have a better understanding of Flexbox layouts, media queries, and reset stylesheets. These three components help create a better accessible web application.
 
 ## Table of Contents
 
@@ -34,7 +34,7 @@ Steps Include:
 
 Here's what the expected output should be:
 
-![alt text](assets/images/Application-Screenshot.png)
+![alt text](assets/images/prismhead26.github.io_Portfolio-Page_.png)
 
 ## Links
 
@@ -68,11 +68,13 @@ Please refer to the LICENSE in the repo.
 
 ## Badges
 
-![Static Badge](https://img.shields.io/badge/HTML_and_CSS%20-100%25%20-blue)
+![Static Badge](https://img.shields.io/badge/CSS%20-%20%2067%25-blue)
+<br>
+![Static Badge](https://img.shields.io/badge/HTML%20-%20%2033%25-orange)
 
 ## Features
 
-CSS, CSS Selectors, root variables, and Flexbox modelling throughout the code, etc.
+CSS, CSS Selectors, media queries, root variables, and Flexbox modelling throughout the code, etc.
 <br>
 Basic HTML with semantic elements, more accessible viewport, and lists.
 <br>
