@@ -3,19 +3,19 @@
   --justify-content-space-between: space-between;
   --align-items-center: center;
   --text-decoration-none: none;
-  --height-full-function: calc(100vh - 100px);
+  --height-full-function: calc(100vh - 20vw);
   --height-full: 100%;
   --width-full: 100%;
   --background-size-cover: cover;
   --background-position-center: center;
   --margin-main: 2%;
   --height-image: 20em;
-  --border-image: 10px solid aqua;
+  --border-image: 10px solid rgb(2, 50, 50);
   --margin-image: 1%;
   --width-image: 40%;
   --opacity-image: 0.5;
-  --color-image-text: #de08e1;
-  --padding-image-container: 80px 0;
+  --color-image-text: rgb(244, 124, 244);
+  --padding-image-container: 10rem 0;
   --display-block: block;
   --opacity-image-hover: 1;
   --transition-image-and-hover: 1s ease;
@@ -61,7 +61,7 @@
   }
   
   nav ul li {
-    padding: 1em 3em 0 3em;
+    padding: 1em 7em 0 7em;
   }
   
   nav a {
@@ -69,6 +69,7 @@
     font-weight: bold;
     text-decoration: underline;
     font-size: 1.2rem;
+    text-shadow: none;
   }
   
   nav a:hover {
@@ -108,6 +109,7 @@
   }
 
   a {
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0044ff;
     font-size: 2em;
   }
 
@@ -122,7 +124,7 @@
     justify-content: var(--justify-content-space-between);
   }
 
-  #challenge-1, #led, #calculator {
+  #marketing-agency-app, #led-grid-app, #calculator {
     background-size: var(--background-size-cover);
     border: var(--border-image);
     margin: var(--margin-image);
@@ -130,14 +132,14 @@
     transition: var(--transition-image-and-hover);
   }
 
-  #challenge-1 {
+  #marketing-agency-app {
     background-image: url(/assets/images/127.0.0.1_5500_index.html\ \(1\).png);
     /*supposed to show the full img with this funciton*/
     height: var(--height-full-function);
     width: 80%;
   }
 
-  #led {
+  #led-grid-app {
     background-image: url(/assets/images/PXL_20231129_200841880.jpg);
     height: var(--height-image);
     width: var(--width-image);
@@ -149,7 +151,7 @@
     width: var(--width-image);
   }
 
-  #challenge-1 span.flexbox-container a, #led span.flexbox-container a, #calculator span.flexbox-container a {
+  #marketing-agency-app span.flexbox-container a, #led-grid-app span.flexbox-container a, #calculator span.flexbox-container a {
     color: var(--color-image-text);
     padding: var(--padding-image-container);
     text-decoration: var(--text-decoration-none);
@@ -158,15 +160,15 @@
     height: var(--height-full);
   }
 
-  #challenge-1 span.flexbox-container a:hover, #led span.flexbox-container a:hover, #calculator span.flexbox-container a:hover {
-    color: white;
+  #marketing-agency-app span.flexbox-container a:hover, #led-grid-app span.flexbox-container a:hover, #calculator span.flexbox-container a:hover {
+    color: rgb(11, 11, 11);
   }
 
-  #challenge-1:hover {
+  #marketing-agency-app:hover {
     background-image: url(/assets/images/127.0.0.1_5500_index.html\ \(1\).png);
   }
 
-  #led:hover {
+  #led-grid-app:hover {
     background-image: url(/assets/images/PXL_20231129_200841880.jpg);
   }
 
@@ -174,10 +176,10 @@
     background-image: url(/assets/images/download.png);
   }
 
- #challenge-1:hover, #led:hover, #calculator:hover {
-  opacity: var(--opacity-image-hover);
-  transition: var(--transition-image-and-hover);
- }
+  #marketing-agency-app:hover, #led-grid-app:hover, #calculator:hover {
+    opacity: var(--opacity-image-hover);
+    transition: var(--transition-image-and-hover);
+  }
 
   footer {
     max-width: var(--width-full);
@@ -191,6 +193,7 @@
 
   .nav-bottom a {
     color: aqua;
+    text-shadow: none;
   }
 
   @media screen and (max-width: 768px) {
