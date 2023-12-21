@@ -1,5 +1,24 @@
 :root {
-
+  --display-flex: flex;
+  --justify-content-space-between: space-between;
+  --align-items-center: center;
+  --text-decoration-none: none;
+  --height-full-function: calc(100vh - 100px);
+  --height-full: 100%;
+  --width-full: 100%;
+  --background-size-cover: cover;
+  --background-position-center: center;
+  --margin-main: 2%;
+  --height-image: 20em;
+  --border-image: 10px solid aqua;
+  --margin-image: 1%;
+  --width-image: 40%;
+  --opacity-image: 0.5;
+  --color-image-text: #de08e1;
+  --padding-image-container: 80px 0;
+  --display-block: block;
+  --opacity-image-hover: 1;
+  --transition-image-and-hover: 1s ease;
 }
 
 * {
@@ -7,15 +26,15 @@
   }
 
   body {
-    display: flex;
+    display: var(--display-flex);
     flex-direction: column;
     background-color: #555654;
   }
 
   header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: var(--display-flex);
+    justify-content: var(--justify-content-space-between);
+    align-items: var(--align-items-center);
     padding: 2%;
     background-color: #36434a;
     color: #ffffff;
@@ -29,12 +48,9 @@
     color: #c8321b;
   }
 
-  nav {
-  }
-
   nav ul {
-    display: flex;
-    justify-content: space-between;
+    display: var(--display-flex);
+    justify-content: var(--justify-content-space-between);
     list-style-type: none;
   }
   
@@ -45,9 +61,8 @@
   nav a {
     color: #87948c;
     font-weight: bold;
-    text-decoration: none;
-    font-size: 1.2rem;
     text-decoration: underline;
+    font-size: 1.2rem;
   }
   
   nav a:hover {
@@ -60,11 +75,11 @@
   }
 
   h2 {
-    height: calc(100vh - 100px);
-    width: 100%;
+    height: var(--height-full-function);
+    width: var(--width-full);
     background-image: url("/assets/images/4419637.jpg");
-    background-size: cover;
-    background-position: center;
+    background-size: var(--background-size-cover);
+    background-position: var(--background-position-center);
     text-align: right;
     color: aqua;
     font-size: 1.4rem;
@@ -83,7 +98,7 @@
   p {
     color: aquamarine;
     font-size: 1.3rem;
-    margin: 2%;
+    margin: var(--margin-main);
   }
 
   a {
@@ -91,106 +106,76 @@
   }
 
   main {
-    max-width: 100%;
-    margin: 2%;
+    max-width: var(--width-full);
+    margin: var(--margin-main);
     padding: 0 1%;
   }
 
   section {
-    display: flex;
-    justify-content: space-between;
+    display: var(--display-flex);
+    justify-content: var(--justify-content-space-between);
   }
 
-  .flexbox-container {
+  #challenge-1, #led, #calculator {
+    background-size: var(--background-size-cover);
+    border: var(--border-image);
+    margin: var(--margin-image);
+    opacity: var(--opacity-image);
+    transition: var(--transition-image-and-hover);
   }
 
   #challenge-1 {
     background-image: url(/assets/images/127.0.0.1_5500_index.html\ \(1\).png);
-    background-size: cover;
     /*supposed to show the full img with this funciton*/
-    height: calc(100vh - 100px);
-    border: 10px solid aqua;
-    margin: 1%;
+    height: var(--height-full-function);
     width: 80%;
-    opacity: 0.5;
-    transition: 1s ease;
-  }
-
-  #challenge-1 span.flexbox-container a {
-    color: black;
-    padding: 80px 0;
-    text-decoration: none;
-    display:block;
-    width:100%;
-    height: 100%;
   }
 
   #led {
     background-image: url(/assets/images/PXL_20231129_200841880.jpg);
-    background-size: cover;
-    height: 20em;
-    border: 10px solid aqua;
-    margin: 1%;
-    width: 40%;
-    opacity: 0.5;
-    transition: 1s ease;
-  }
-
-  #led span.flexbox-container a {
-    color: #de08e1;
-    padding: 80px 0;
-    text-decoration: none;
-    display:block;
-    width:100%;
-    height: 100%;
+    height: var(--height-image);
+    width: var(--width-image);
   }
 
   #calculator {
     background-image: url(/assets/images/download.png);
-    background-size: cover;
-    height: 20em;
-    border: 10px solid aqua;
-    margin: 1%;
-    width: 40%;
-    opacity: 0.5;
-    transition: 1s ease;
+    height: var(--height-image);
+    width: var(--width-image);
   }
 
-  #calculator span.flexbox-container a {
-    color: gray;
-    padding: 80px 0;
-    text-decoration: none;
-    display:block;
-    width: 100%;
-    height: 100%;
+  #challenge-1 span.flexbox-container a, #led span.flexbox-container a, #calculator span.flexbox-container a {
+    color: var(--color-image-text);
+    padding: var(--padding-image-container);
+    text-decoration: var(--text-decoration-none);
+    display: var(--display-block);
+    width: var(--width-full);
+    height: var(--height-full);
   }
 
   #challenge-1 span.flexbox-container a:hover, #led span.flexbox-container a:hover, #calculator span.flexbox-container a:hover {
     color: white;
-    transition: 1s ease;
   }
 
-  #challenge-1 {
+  #challenge-1:hover {
     background-image: url(/assets/images/127.0.0.1_5500_index.html\ \(1\).png);
-    opacity: 1;
-    transition: 1s ease;
   }
 
   #led:hover {
     background-image: url(/assets/images/PXL_20231129_200841880.jpg);
-    opacity: 1;
-    transition: 1s ease;
   }
 
   #calculator:hover {
     background-image: url(/assets/images/download.png);
-    opacity: 1;
-    transition: 1s ease;
   }
 
+ #challenge-1:hover, #led:hover, #calculator:hover {
+  opacity: var(--opacity-image-hover);
+  transition: var(--transition-image-and-hover);
+ }
+
   footer {
-    max-width: 100%;
-    margin: 2%;
+    max-width: var(--width-full);
+    margin: var(--margin-main);
     padding: 0 1%;
   }
 
