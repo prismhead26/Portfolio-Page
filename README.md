@@ -40,7 +40,7 @@ Here's what the expected output should be:
 
 Link to deployed application:
 <br>
-[logo]: https://prismhead26.github.io/Portfolio-Page/ "Search Engine Optimization"
+[logo]: https://prismhead26.github.io/Portfolio-Page/ "Portfolio Webpage"
 <br>
 Link to HTML file:
 <br>
@@ -72,9 +72,11 @@ Please refer to the LICENSE in the repo.
 
 ## Features
 
-CSS, CSS Selectors, positioning, and Flexbox modelling throughout the code, etc.
+CSS, CSS Selectors, root variables, and Flexbox modelling throughout the code, etc.
 <br>
-Basic HTML with lists.
+Basic HTML with semantic elements, more accessible viewport, and lists.
+<br>
+A Reset stylesheet file has also been implemented so it can reduce browser inconsistencies.
 
 ## Tests
 
