@@ -133,20 +133,20 @@
   }
 
   #marketing-agency-app {
-    background-image: url(/assets/images/127.0.0.1_5500_index.html\ \(1\).png);
+    background-image: url(../images/127.0.0.1_5500_index.html\ \(1\).png);
     /*supposed to show the full img with this funciton*/
     height: var(--height-full-function);
     width: 80%;
   }
 
   #led-grid-app {
-    background-image: url(/assets/images/PXL_20231129_200841880.jpg);
+    background-image: url(../images/PXL_20231129_200841880.jpg);
     height: var(--height-image);
     width: var(--width-image);
   }
 
   #calculator {
-    background-image: url(/assets/images/download.png);
+    background-image: url(../images/download.png);
     height: var(--height-image);
     width: var(--width-image);
   }
@@ -165,15 +165,15 @@
   }
 
   #marketing-agency-app:hover {
-    background-image: url(/assets/images/127.0.0.1_5500_index.html\ \(1\).png);
+    background-image: url(../images/127.0.0.1_5500_index.html\ \(1\).png);
   }
 
   #led-grid-app:hover {
-    background-image: url(/assets/images/PXL_20231129_200841880.jpg);
+    background-image: url(../images/PXL_20231129_200841880.jpg);
   }
 
   #calculator:hover {
-    background-image: url(/assets/images/download.png);
+    background-image: url(../images/download.png);
   }
 
   #marketing-agency-app:hover, #led-grid-app:hover, #calculator:hover {
