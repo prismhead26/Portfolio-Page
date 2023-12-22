@@ -1,9 +1,10 @@
+/*Root variables to make it easier to play with sizing and styling*/
 :root {
   --display-flex: flex;
   --justify-content-space-between: space-between;
   --align-items-center: center;
   --text-decoration-none: none;
-  --height-full-function: calc(100vh - 20vw);
+  --height-full-function: calc(100vh - 20vw); /*orig found online for full-image = calc(100vh-100px)... changed the values for better fit and accessibility*/
   --height-full: 100%;
   --width-full: 100%;
   --background-size-cover: cover;
@@ -47,7 +48,7 @@
   h1 .portfolio {
     color: #c8321b;
   }
-
+/*Added flex to nav as well as ul to fit with different sizes*/
   nav, .nav-bottom {
     display: var(--display-flex);
   
@@ -59,7 +60,7 @@
     list-style-type: none;
     flex-wrap: wrap;
   }
-  
+  /*spacing between nav links*/
   nav ul li {
     padding: 1em 7em 0 7em;
   }
@@ -80,7 +81,7 @@
     top: 0px;
     bottom: 0px;
   }
-
+/*Background-image & text*/
   h2 {
     height: var(--height-full-function);
     width: var(--width-full);
@@ -107,7 +108,7 @@
     font-size: 1.3rem;
     margin: var(--margin-main);
   }
-
+/*Better text-visibility since the text/background.image*/
   a {
     text-shadow: 0 0 3px #ff0000, 0 0 5px #0044ff;
     font-size: 2em;
@@ -123,8 +124,8 @@
     display: var(--display-flex);
     justify-content: var(--justify-content-space-between);
   }
-
-  #marketing-agency-app, #led-grid-app, #calculator {
+/*The main flexbox container as it sits on the webpage*/
+  #marketing-agency-app, #led-grid-app, #calculator-app {
     background-size: var(--background-size-cover);
     border: var(--border-image);
     margin: var(--margin-image);
@@ -134,7 +135,7 @@
 
   #marketing-agency-app {
     background-image: url(../images/127.0.0.1_5500_index.html\ \(1\).png);
-    /*supposed to show the full img with this funciton*/
+/*supposed to show the full img with this funciton*/
     height: var(--height-full-function);
     width: 80%;
   }
@@ -145,13 +146,13 @@
     width: var(--width-image);
   }
 
-  #calculator {
+  #calculator-app {
     background-image: url(../images/download.png);
     height: var(--height-image);
     width: var(--width-image);
   }
-
-  #marketing-agency-app span.flexbox-container a, #led-grid-app span.flexbox-container a, #calculator span.flexbox-container a {
+/*App-text: styling and typography*/
+  #marketing-agency-app span.flexbox-container a, #led-grid-app span.flexbox-container a, #calculator-app span.flexbox-container a {
     color: var(--color-image-text);
     padding: var(--padding-image-container);
     text-decoration: var(--text-decoration-none);
@@ -159,11 +160,11 @@
     width: var(--width-full);
     height: var(--height-full);
   }
-
-  #marketing-agency-app span.flexbox-container a:hover, #led-grid-app span.flexbox-container a:hover, #calculator span.flexbox-container a:hover {
+/*hover effects*/
+  #marketing-agency-app span.flexbox-container a:hover, #led-grid-app span.flexbox-container a:hover, #calculator-app span.flexbox-container a:hover {
     color: rgb(11, 11, 11);
   }
-
+/*added background-images to hover as well to keep image displayed*/
   #marketing-agency-app:hover {
     background-image: url(../images/127.0.0.1_5500_index.html\ \(1\).png);
   }
@@ -172,11 +173,11 @@
     background-image: url(../images/PXL_20231129_200841880.jpg);
   }
 
-  #calculator:hover {
+  #calculator-app:hover {
     background-image: url(../images/download.png);
   }
-
-  #marketing-agency-app:hover, #led-grid-app:hover, #calculator:hover {
+/*hover effects transition*/
+  #marketing-agency-app:hover, #led-grid-app:hover, #calculator-app:hover {
     opacity: var(--opacity-image-hover);
     transition: var(--transition-image-and-hover);
   }
@@ -195,7 +196,7 @@
     color: aqua;
     text-shadow: none;
   }
-
+/*Accessibility for smaller screens*/
   @media screen and (max-width: 768px) {
     main, nav, body, footer, .nav-bottom {
       flex-direction: column;
