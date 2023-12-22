@@ -85,7 +85,7 @@
   h2 {
     height: var(--height-full-function);
     width: var(--width-full);
-    background-image: url(../images/4419637.jpg);
+    background-image: url(../images/Bacground-red-shooter.jpg);
     background-size: var(--background-size-cover);
     background-position: var(--background-position-center);
     text-align: right;
@@ -135,18 +135,18 @@
 
   #marketing-agency-app {
     background-image: url(../images/127.0.0.1_5500_index.html\ \(1\).png);
-/*supposed to show the full img with this funciton*/
+    /*supposed to show the full img with this funciton*/
     height: var(--height-full-function);
     width: 80%;
   }
 
   #led-grid-app {
-    background-image: url(../images/PXL_20231129_200841880.jpg);
+    background-image: url(../images/Motorcycle-ground-view.jpg);
     height: var(--height-image);
     width: var(--width-image);
   }
 
-  #calculator-app {
+  #calculator {
     background-image: url(../images/download.png);
     height: var(--height-image);
     width: var(--width-image);
@@ -166,14 +166,14 @@
   }
 /*added background-images to hover as well to keep image displayed*/
   #marketing-agency-app:hover {
-    background-image: url(../images/127.0.0.1_5500_index.html\ \(1\).png);
+    background-image: url(../images/Marketing-Agency-scrnsht.png);
   }
 
   #led-grid-app:hover {
-    background-image: url(../images/PXL_20231129_200841880.jpg);
+    background-image: url(../images/Motorcycle-ground-view.jpg);
   }
 
-  #calculator-app:hover {
+  #calculator:hover {
     background-image: url(../images/download.png);
   }
 /*hover effects transition*/
